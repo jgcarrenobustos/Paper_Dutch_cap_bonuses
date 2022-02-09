@@ -111,9 +111,13 @@ We use a ...
 %===================================================================================
 \section{Introduction}
 %===================================================================================
-....
 
+[NICE INTRO ABOUT THE FINANCIAL CRISES, BANK REGULATION, AND SALARIES] \\
 
+This paper evaluates the Dutch bonus cap (DBC), which introduced a 20\% bonus cap for financial undertakings in 2016. We combine administrative data to measure program exposure and savings outcomes for all workers in the banking industry. We use difference-in-difference 
+design to estimate the effect of the DBC on savings. Our difference-in-difference design compares group of workers at the same point in time whose exposure to the program differs. We define policy exposure based on the salary in 2012. Workers with a low salary in 2012 serve as ``control group'' because the policy does not induce many banks to change their salary. \\
+
+We present several findings. First, the policy proved effective at decreasing the salary growth at the top-decile. Second, workers at the top- decile changed the wage composition...
 
 
 \newpage
@@ -121,26 +125,9 @@ We use a ...
 \section{Literature Review} \label{literature_review}
 %=====================================================================================
 
+\subsection{Results in the literature related the bonus cap}
 
-
-
-
-\begin{itemize}
-	
-	\item \citet{berger2020stimulating}: They document the effect of the FTHC on home sales. Our difference in differences design compares ZIP codes at the same point in time whose
-	exposure to the program differs. We define program exposure based on the number of potential first-time home buyers in a ZIP code. ZIP codes with few potential first-time homebuyers serve as a “control group” because the policy does not induce many people to buy in these places. We measure exposure as
-	the year-2000 share of people in a ZIP code who are first-time homebuyers. 
-	
-	\begin{figure}
-		\centering
-		\caption{Figure 5 from \citet{berger2020stimulating}.}
-		\includegraphics[width=0.7\linewidth]{figure5_empirical_approach}
-		
-		\label{fig:figure5empiricalapproach}
-	\end{figure}
-	
-	
-	
+\begin{itemize}		
 	\item \citet{colonnello2018effectiveness}:  A very good starting point to start working on this topic. They classified bankers with a binding bonus cap as treated.  They then run a DiD where the outcome is risk-taking.  They find mixed evidence. He also seems that literature does not have evidence for the full economy to study the impact of bonus cap in the finance industry (except by \citet{abudy2020executive}).   
 	\item \citet{efing2018bank}: They argue that risk sharing motivates the bank-wide structure of bonus pay. This is paper is interesting because they have employee-employer data. Yet do not have advantage of any quasi-experiment but the financial crisis.  They document very interesting fact that we can also look at. This paper is motivated in the theoretical work of \citet{thanassoulis2012case}.
 	\item \citet{abudy2020executive}: They exploit a the same quasi-experiment than us.  They find that compensation
@@ -149,6 +136,36 @@ We use a ...
 \end{itemize}
 
 
+\subsection{Results related to fix/variable proportion of salary}
+
+\begin{itemize}	
+	\item ...
+	
+\end{itemize}
+
+
+
+
+\subsection{Methods: Diff-in-Diff}
+
+\begin{itemize}	
+	\item \citet{berger2020stimulating}: They document the effect of the FTHC on home sales. Our difference in differences design compares ZIP codes at the same point in time whose
+	exposure to the program differs. We define program exposure based on the number of potential first-time home buyers in a ZIP code. ZIP codes with few potential first-time homebuyers serve as a “control group” because the policy does not induce many people to buy in these places. We measure exposure as
+	the year-2000 share of people in a ZIP code who are first-time homebuyers. 
+	
+	\begin{figure}[H]
+		\centering
+		\caption{Figure 5 from \citet{berger2020stimulating}.}
+		\includegraphics[width=0.7\linewidth]{figure5_empirical_approach}
+		
+		\label{fig:figure5empiricalapproach}
+	\end{figure}
+	
+\end{itemize}
+
+
+
+\newpage
 %=====================================================================================
 \section{Bonus cap in the Netherlands} \label{bonus_cap}
 %=====================================================================================
@@ -185,7 +202,7 @@ We use a ...
 \end{itemize}
 
 
-
+\newpage
 %=====================================================================================
 \section{Data} \label{data}
 %=====================================================================================
@@ -202,12 +219,18 @@ Our data allows us to decompose the worker's pay into base salary, special remun
 		\item Regarding the VPR dynamics, special remuneration over basic wage, we have the following. 
 		\begin{enumerate}
 			\item Banks: While the VPR jumped in 2013, it decreased in 2014 to a level lower than 2012. After 2014, the VPR has remained in approximately the same level than 2014. Therefore, the dynamic are related to the announcement, but not to the start of the regulation.\footnote{The lower VPR is explained by a lower special remuneration. The basic wage has grown constantly over time. } \textbf{Who were more affected?}  Worker on the top decile according to the gross wage. It seems that they were also more prone to leave the finance industry. 
-			\item Banks: The VPR in 2012 cannot help to explain who were treated in 2014. Two reasons: (1) the VPR is not related to the gross wage. Everyone can get a high VPR in the finance industry; (2) The VPR in in fact variable. Getting a high VPR in 2012 does not predict a higher VPR in 2014. 
+			\item Insurance: We so see a change in 2015 (lower value) when compared to 2012 or 2013.
+			\item Pensions: We do see a change in 2015/2016. It does not seem consistent with the timing of the regulation.  
+			%\item Banks: The VPR in 2012 cannot help to explain who were treated in 2014. Two reasons: (1) the VPR is not related to the gross wage. Everyone can get a high VPR in the finance industry; (2) The VPR in in fact variable. Getting a high VPR in 2012 does not predict a higher VPR in 2014. 
 			%\item Small exercise. We consider workers staying in the finance industry over the period 2012-2014. We classify workers in deciles by using the gross wage in 2012. We calculate the VPR change between 2012 and 2014. We do see that workers at the top deciles were more affected by the dutch cap. They suffered a 2.5\% media reduction of the VPR between 2012 and 2014. We also observe a reduction in the gross wage of workers at the top deciles. 
 			%\item It is important to note that there is not a clear relationship between the VPR and the gross wage. So, it is not possible to anticipate
 			%\item Continuing the exercise, we check how many workers were still employed in 2015. Remember that we are considering workers stayed in the finance industry over the period 2012-2014. We do see that 20\% of workers at the top decile left the finance industry. Contrarily, we see that just 10\% of worker left at lower deciles. 
 			
 		\end{enumerate}
+	\item We compare group of workers by the exposition to the cap. We define policy exposure based on the gross wage decile in 2012. 
+	\item Banks: We observe that top decile was the most affected regarding special remuneration. This variables has not recovered over time. We also observe a rapid growth of the basic wage for the top-decile that make the gross wage to growth just after 2014. 
+	\item We do not see a big impact on employment at the top decile. Yet, we observe that an important number of workers left the banking industry at the end of 2013 (all of them did much worse than their peers in terms of the gross wage). I could not find much more about this. 
+	
 		
 	\end{itemize}
 	

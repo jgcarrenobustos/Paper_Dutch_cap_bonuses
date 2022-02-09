@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2021.2.3)  3 JUN 2021 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2021.2.3)  7 JUN 2021 12:55
 entering extended mode
 **./BCHUV_cap_bonuses_2022.tex
 (BCHUV_cap_bonuses_2022.tex
@@ -1289,28 +1289,43 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
  [1
 
 {C:/Users/jgcar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2]
-<figure5_empirical_approach.png, id=56, 551.661pt x 503.481pt>
-File: figure5_empirical_approach.png Graphic file (type png)
-<use figure5_empirical_approach.png>
-Package pdftex.def Info: figure5_empirical_approach.png  used on input line 137
-.
-(pdftex.def)             Requested size: 328.62788pt x 299.92447pt.
- [3 <./figure5_empirical_approach.png>]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 164.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 164.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 164.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 164.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Overfull \hbox (13.25705pt too wide) in paragraph at lines 115--116
+\OT1/ppl/m/n/12 [NICE IN-TRO ABOUT THE FI-NAN-CIAL CRISES, BANK REG-U-LA-TION, 
+AND SALARIES] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[5] [6] [7] [8] (BCHUV_cap_bonuses_2022.bbl) [9]
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+ []
+
+[2]
+<figure5_empirical_approach.png, id=78, 551.661pt x 503.481pt>
+File: figure5_empirical_approach.png Graphic file (type png)
+<use figure5_empirical_approach.png>
+Package pdftex.def Info: figure5_empirical_approach.png  used on input line 159
+.
+(pdftex.def)             Requested size: 328.62788pt x 299.92447pt.
+ [3] [4 <./figure5_empirical_approach.png>]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 181.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 181.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 181.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 181.
+ [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+[7] [8] [9] [10] (BCHUV_cap_bonuses_2022.bbl) [11]
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
@@ -1327,35 +1342,35 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 76.125pt
 (typearea)              \baselineskip   = 21.75pt
-(typearea)              on input line 296.
+(typearea)              on input line 319.
 Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 296.
+(typearea)             dimensions of LaTeX on input line 319.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 22.
 See the caption package documentation for explanation.
 
-[10] (BCHUV_cap_bonuses_2022.aux)
+[12] (BCHUV_cap_bonuses_2022.aux)
 Package rerunfilecheck Info: File `BCHUV_cap_bonuses_2022.out' has not changed.
 
-(rerunfilecheck)             Checksum: 9916CA038E9270E3DF9267AC0B29591E;471.
+(rerunfilecheck)             Checksum: 00C98EE687F26D6EE639F3062C0F0DFA;741.
  ) 
 Here is how much of TeX's memory you used:
- 12244 strings out of 479623
- 192598 string characters out of 2863174
- 522962 words of memory out of 3000000
- 29081 multiletter control sequences out of 15000+200000
+ 12254 strings out of 479623
+ 192718 string characters out of 2863174
+ 522966 words of memory out of 3000000
+ 29085 multiletter control sequences out of 15000+200000
  438581 words of font info for 127 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,12n,116p,631b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,12n,116p,631b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jgcar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/jgcar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/upl
 b8a.pfb><C:/Users/jgcar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplr8a.pfb><C:/Users/jgcar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on BCHUV_cap_bonuses_2022.pdf (10 pages, 170681 bytes).
+Output written on BCHUV_cap_bonuses_2022.pdf (12 pages, 175531 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
